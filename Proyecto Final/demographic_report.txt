@@ -1,0 +1,12 @@
+=== Reporte Demográfico ===
+Total Customers: 7043
+Churn Rate: 26.54
+Gender Distribution:
+  - Masculino: 50.48%
+  - Femenino: 49.52%
+Senior Citizen Percentage: 0
+Partner Percentage: 48.30
+Dependents Percentage: 23.10
+Average Tenure: 32.37
+Average Monthly Charges: 64.76
+Average Cltv: 4400.30

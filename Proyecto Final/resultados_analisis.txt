@@ -1,0 +1,48 @@
+=== RESULTADOS DEL ANÁLISIS ===
+
+1. ESTADÍSTICAS DESCRIPTIVAS:
+                       Media  Mediana   Moda        Varianza Desv. Estándar Coef. Variación Asimetría  Curtosis Mínimo  Máximo   Rango
+Tenure Months      32.371149     29.0      1      603.168108      24.559481        0.758684   0.23954 -1.387372      0      72      72
+Monthly Charges    64.761692    70.35  20.05      905.410934      30.090047        0.464627 -0.220524  -1.25726  18.25  118.75   100.5
+Total Charges    2279.734304  1394.55    0.0  5138357.167813     2266.79447        0.994324  0.963235  -0.22858    0.0  8684.8  8684.8
+Churn Score        58.699418     61.0     80      463.331251      21.525131        0.366701  -0.08984 -1.005679      5     100      95
+CLTV             4400.295755   4527.0   5546  1399624.224786    1183.057152        0.268859 -0.311602 -0.934032   2003    6500    4497
+
+2. ANÁLISIS INFERENCIAL:
+Intervalos de Confianza (95%):
+Tenure Months: [31.80, 32.94]
+Monthly Charges: [64.06, 65.46]
+Total Charges: [2226.79, 2332.67]
+
+Pruebas t (Churn vs No Churn):
+Tenure Months: t = -34.82, p = 0.0000
+Monthly Charges: t = 18.41, p = 0.0000
+Total Charges: t = -18.71, p = 0.0000
+
+ANOVA:
+                   sum_sq      df          F        PR(>F)
+C(Contract)  3.750468e+04     2.0  20.828045  9.575271e-10
+Residual     6.338399e+06  7040.0        NaN           NaN
+
+3. MODELADO PREDICTIVO:
+Regresión Logística:
+Accuracy: 0.92
+              precision    recall  f1-score   support
+
+           0       0.95      0.94      0.94      1552
+           1       0.84      0.86      0.85       561
+
+    accuracy                           0.92      2113
+   macro avg       0.89      0.90      0.90      2113
+weighted avg       0.92      0.92      0.92      2113
+
+Random Forest:
+Accuracy: 0.93
+              precision    recall  f1-score   support
+
+           0       0.95      0.95      0.95      1552
+           1       0.87      0.87      0.87       561
+
+    accuracy                           0.93      2113
+   macro avg       0.91      0.91      0.91      2113
+weighted avg       0.93      0.93      0.93      2113
