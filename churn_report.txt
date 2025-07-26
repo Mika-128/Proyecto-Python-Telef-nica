@@ -1,0 +1,16 @@
+=== Reporte de Churn ===
+Total Churned: 1869
+Churn Rate: 26.54
+
+Top Reasons:
+ - Actitud del personal de soporte: 192
+ - El competidor ofreció mayores velocidades de descarga: 189
+ - El competidor ofreció más datos: 162
+ - No sabe: 154
+ - El competidor hizo una mejor oferta: 140
+Avg Tenure Churned: 17.98
+Avg Tenure Not Churned: 37.57
+Avg Monthly Charges Churned: 74.44
+Avg Monthly Charges Not Churned: 61.27
+Avg Cltv Churned: 4149.41
+Avg Cltv Not Churned: 4490.92
